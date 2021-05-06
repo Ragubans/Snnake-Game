@@ -1,0 +1,43 @@
+html, body {
+    margin: 10;
+    padding: 10;
+}
+h1{
+  color:#28aac7
+
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 200px;
+    height: 200px;
+    border: solid 2px black;
+}
+#message{
+  font-family: cursive;
+  font-weight: bold;
+  color:#eb9e34;
+  text-decoration-style: wavy;
+  font-size: 40px;
+  text-align: center;
+  display:none;
+}
+#image{
+  display:none;
+  height:400px;
+  width:800px;
+}
+
+.square {
+    width: 20px;
+    height: 20px;
+}
+
+.snake {
+    background-color: green;
+}
+
+.apple {
+    background-color: blue;
+}
